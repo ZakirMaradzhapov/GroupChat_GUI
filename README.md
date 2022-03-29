@@ -9,3 +9,6 @@ the log of his/her messages.
 There is a possibility for users to send private messages to each other. It is done this way: 
 On client side sending message: /private to username_here message_content. If private message 
 is sent, only destination user gets its content (sender of the letter is also noted)
+
+All the chat history is stored in a separate sqlite database in file format.
+GUI is implemented using tkinter standard library.
